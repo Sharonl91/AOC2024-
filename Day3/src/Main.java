@@ -7,7 +7,7 @@ import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList<String> fileData = getFileData("src/Day3Input.txt");
+        ArrayList<String> fileData = getFileData("Day3/src/Day3Input");
 //        ArrayList<String> answer = new ArrayList<>();
         int total = 0;
 //        Pattern p = Pattern.compile("mul\\((\\d{1,3}),(\\d{1,3})\\)|do\\(\\)|don't\\(\\)");

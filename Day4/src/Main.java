@@ -5,7 +5,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         // 140 for real puzzle, 10 for testing input
-        String[][] fileData = getFileData("src/Day04Input.txt",140);
+        String[][] fileData = getFileData("Day4/src/Day04Input",140);
         partOne(fileData);
         partTwo(fileData);
     }

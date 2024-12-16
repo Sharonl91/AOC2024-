@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        ArrayList<String> fileData = getFileData("src/Day2Input.txt");
+        ArrayList<String> fileData = getFileData("Day2/src/Day2Input");
         System.out.println(getAnswer(fileData));
 
     }
