@@ -77,7 +77,6 @@ public class Main {
                 fixed.add(updates.get(i));
             }
         }
-
         for (int i = 0; i < fixed.size(); i++){
             for (int j = 0; j < rules.size(); j++){
                 String line = rules.get(j);
